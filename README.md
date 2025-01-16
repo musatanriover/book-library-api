@@ -52,38 +52,21 @@ You can test all endpoints directly in the Swagger UI.
 
 Method | Endpoint | Description
 
-GET /api/book Get all books
+GET | /api/book | Get all books
 
-GET
+GET | /api/book/{id} | Get a book by ID
 
-/api/book/{id}
+POST | /api/book | Add a new book
 
-Get a book by ID
+PUT | api/book/{id} | Update an existing book
 
-POST
+DELETE | /api/book/{id} | Delete a book by ID
 
-/api/book
+## 📄 Example API Request & Response
 
-Add a new book
-
-PUT
-
-/api/book/{id}
-
-Update an existing book
-
-DELETE
-
-/api/book/{id}
-
-Delete a book by ID
-
-📄 Example API Request & Response
-
-Adding a New Book (POST /api/book)
+### Adding a New Book (POST /api/book)
 
 Request Body:
-
 {
   "title": "The Great Gatsby",
   "author": "F. Scott Fitzgerald",
@@ -92,7 +75,6 @@ Request Body:
 }
 
 Response:
-
 {
   "id": 3,
   "title": "The Great Gatsby",
@@ -101,7 +83,7 @@ Response:
   "year": 1925
 }
 
-🛠 Future Improvements
+## 🛠 Future Improvements
 
 ✅ Implement Entity Framework Core for database persistence
 
@@ -109,11 +91,11 @@ Response:
 
 ✅ Implement unit and integration tests using xUnit
 
-🤝 Contributing
+## 🤝 Contributing
 
 Feel free to fork this repository and submit pull requests!
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 

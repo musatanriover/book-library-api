@@ -1,11 +1,11 @@
 # book-library-api
 Book Library API
 
-##📌 Overview
+# 📌 Overview
 
 Book Library API is a simple RESTful API built with ASP.NET Core that allows users to manage a collection of books. It provides CRUD (Create, Read, Update, Delete) operations for book management.
 
-##🚀 Features
+# 🚀 Features
 
 📚 Get all books (GET /api/book)
 

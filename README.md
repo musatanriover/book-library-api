@@ -50,17 +50,14 @@ You can test all endpoints directly in the Swagger UI.
 
 ## 🔗 API Endpoints
 
-Method | Endpoint | Description
+| Method   | Endpoint         | Description             |
+|----------|-----------------|-------------------------|
+| `GET`    | `/api/book`      | Get all books           |
+| `GET`    | `/api/book/{id}` | Get a book by ID        |
+| `POST`   | `/api/book`      | Add a new book          |
+| `PUT`    | `/api/book/{id}` | Update an existing book |
+| `DELETE` | `/api/book/{id}` | Delete a book by ID     |
 
-GET | /api/book | Get all books
-
-GET | /api/book/{id} | Get a book by ID
-
-POST | /api/book | Add a new book
-
-PUT | api/book/{id} | Update an existing book
-
-DELETE | /api/book/{id} | Delete a book by ID
 
 ## 📄 Example API Request & Response
 

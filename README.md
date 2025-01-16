@@ -1,11 +1,10 @@
-# book-library-api
-## Book Library API
+# Book Library API
 
-# 📌 Overview
+## 📌 Overview
 
 Book Library API is a simple RESTful API built with ASP.NET Core that allows users to manage a collection of books. It provides CRUD (Create, Read, Update, Delete) operations for book management.
 
-# 🚀 Features
+## 🚀 Features
 
 📚 Get all books (GET /api/book)
 
@@ -19,7 +18,7 @@ Book Library API is a simple RESTful API built with ASP.NET Core that allows use
 
 🛠 Swagger UI for API testing
 
-🏗 Technologies Used
+## 🏗 Technologies Used
 
 C#
 
@@ -31,44 +30,29 @@ Swagger (Swashbuckle)
 
 Entity Framework Core (Optional for Database Support)
 
-🔧 Installation & Setup
+## 🔧 Installation & Setup
 
-Prerequisites
-
+### Prerequisites
 Install .NET SDK
 
-Clone the Repository
-
+### Clone the Repository
 git clone https://github.com/your-username/book-library-api.git
 cd book-library-api
 
-Run the API
-
+### Run the API
 dotnet run
-
 The API will be available at: http://localhost:5000 (or another assigned port).
 
-Test with Swagger
-
+### Test with Swagger
 After running the application, open your browser and go to:
-
 http://localhost:5000/swagger
-
 You can test all endpoints directly in the Swagger UI.
 
-🔗 API Endpoints
+## 🔗 API Endpoints
 
-Method
+Method | Endpoint | Description
 
-Endpoint
-
-Description
-
-GET
-
-/api/book
-
-Get all books
+GET /api/book Get all books
 
 GET
 
